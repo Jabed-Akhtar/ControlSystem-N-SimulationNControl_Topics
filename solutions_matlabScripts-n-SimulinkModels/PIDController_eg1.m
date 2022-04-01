@@ -58,7 +58,7 @@ for n=1:5
     legend('P1I0D1', 'P5I0D2', 'P10I0D6', 'P20I1D7', 'P24I1D8', 'Location', 'southeast')
 end
 
-%% Step response ----------------------------------------------------------
+%% Impulse response ----------------------------------------------------------
 figure(3)
 impulse(M_noController)
 hold on; grid;
@@ -66,7 +66,7 @@ xlim([0 6])
 impulse(M_withController)
 legend('impulse-response with no Controller', 'impulse-response with PID Controller - P1I0D1','Location','northeast')
 
-%% Plotting Step responses with varoius PID variables ---------------------
+%% Plotting Impulse responses with varoius PID variables ---------------------
 Kp = [1 5 10 20 24];
 Ki = [0 0 0 1 1];
 Kd = [0 2 6 7 8];
