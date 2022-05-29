@@ -7,7 +7,7 @@
 % brief     :
 % *************************************************************************
 % script (this) related infos:
-%   - task-file can be found at location: '../Tasks/Pendulum_withFreeSupport_Task.jpg'
+%   - task-file can be found at location: '../Tasks/Pendulum_withFreeSupport_Task.pdf'
 %   - evicences/pics can be found at location: '../evidendes/Pendulum_withFreeSupport.jpg'
 % *************************************************************************
 % Descriptions:
